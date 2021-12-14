@@ -56,7 +56,6 @@ public class UserHandler {
     @RequestMapping("/queryById/{id}")
     public Object qid(@PathVariable int id){
         System.out.println("编辑 id====> "+id);
-
         return MyResult.init(404,"","");
     }
 
