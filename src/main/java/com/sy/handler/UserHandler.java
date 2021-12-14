@@ -31,7 +31,7 @@ public class UserHandler {
     @RequestMapping("/add")
     public Object add(@RequestBody UserInfo ui){
         System.out.println("添加user====> "+ui);
-
+        System.out.println();
 
         return MyResult.init(404,"","");
     }
